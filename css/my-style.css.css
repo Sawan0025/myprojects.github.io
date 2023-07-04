@@ -1,0 +1,933 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;1,100;1,200;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar-customclass {
+    background-color: #0d043d;
+}
+
+.bs {
+    background: linear-gradient(to right, #21b8f3, #ff08ad, #23c9cf, #44eed2);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 23px;
+    font-family: 'Kablammo', cursive;
+}
+
+/* .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 30px !important; }
+
+.navbar-expand-lg .navbar-nav {
+    flex-direction: row;
+    margin-right: 100px !important;
+}
+
+ */
+
+li a {
+    color: white;
+}
+
+.main {
+    position: relative;
+    background-color: #0d043d;
+    height: 750px;
+}
+
+.img1 img {
+
+    width: 400px;
+    position: absolute;
+    left: 2%;
+    top: 5%;
+}
+
+
+.img2 img {
+    width: 600px;
+    position: absolute;
+    left: 29%;
+    top: 150px;
+}
+
+
+
+.img3 img {
+
+    width: 240px;
+    position: absolute;
+    top: 5px;
+    left: 73%;
+}
+
+
+
+.img4 img {
+
+    width: 320px;
+    position: absolute;
+    left: 7%;
+    top: 350px;
+}
+
+
+.img5 {
+
+    position: absolute;
+    top: 600px;
+    left: 38%;
+}
+
+.img5 img {
+
+    width: 200px;
+}
+
+
+
+
+.img5 img.play {
+
+    width: 170px;
+}
+
+
+.img6 img {
+
+    width: 300px;
+    position: absolute;
+    top: 400px;
+    left: 72%;
+}
+
+.ig1 img {
+    width: 300px;
+}
+
+.ig1 {
+    position: relative;
+    margin-bottom: 30px;
+
+}
+
+.ig-dis {
+    color: white;
+    position: absolute;
+    top: 76%;
+    text-align: center;
+}
+
+
+.ig1:hover {
+    transform: scale(1.03);
+    transition: 1.1s;
+}
+
+.ig-dis h4 {
+    font-size: 20px;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.ig-dis p {
+    font-size: 14px;
+    text-transform: capitalize;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.offline {
+    background-color: #0d043d;
+    background-image: url("../pic/wave.png");
+    height: 95vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.chllng {
+    background-color: #0d043d;
+}
+
+.cllng-dis {
+    text-align: center;
+    color: white;
+
+
+}
+
+.vs img {
+    width: 100%;
+    margin-top: -2%;
+    margin-bottom: 7%;
+
+}
+
+.cllng-dis h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: 4px;
+    padding-top: 4%;
+}
+
+.counter {
+    background-color: #0d043d;
+    width: 100%;
+    height: 30vh;
+    background-image: url("../pic/count.png");
+    background-size: contain;
+
+
+}
+
+.count {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.count h3.b {
+    font-size: 30px;
+    background: -webkit-linear-gradient(0deg, rgba(161, 29, 29, 0.68) 18%, #e03db8 51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.count h3.a {
+    font-size: 30px;
+    background: -webkit-linear-gradient(0deg, rgba(29, 157, 161, 0.68) 18%, #61e048 51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.count h3.c {
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(238, 215, 10), rgb(212, 4, 4));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.count h3.d {
+    font-size: 30px;
+    background: -webkit-linear-gradient(rgb(17, 219, 142), rgb(4, 42, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.count p {
+    color: white;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 26px;
+}
+
+
+.roboes {
+    background-color: #0d043d;
+    background-image: url('../pic/purp_pop.png'), url('../pic/right.png'), url('../pic/boosterplate\ .png');
+    height: 95vh;
+    background-position: right 100px, left 100px, center 300px;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+    background-size: contain;
+    position: relative;
+}
+
+
+
+
+.heading-primary-main {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    animation-name: moveInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    color: #ff08ad;
+    font-family: 'Itim', cursive;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    animation-name: moveInright;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+
+.robo-name {
+    position: absolute;
+    top: 30%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.heading-primary {
+    position: relative;
+}
+
+.heading-primary::before {
+    content: "|";
+    color: #ff08ad;
+    position: absolute;
+    left: -18%;
+    top: -20%;
+    font-size: 75px;
+    font-weight: 900;
+}
+
+.alien img.booster1 {
+    width: 250px;
+    position: absolute;
+    top: 59%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+.alien img.plt {
+    width: 450px;
+    position: absolute;
+    top: 88%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+}
+
+.robo-dis {
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.robo {
+    font-weight: 800;
+    color: white;
+}
+
+
+
+.card-main {
+    position: relative;
+    background-color: transparent;
+}
+
+.cddd img.cards {
+    width: 350px;
+    background-color: transparent;
+}
+
+
+
+.cddd img.ball {
+    width: 180px;
+    position: absolute;
+    top: 11%;
+    left: 21%;
+}
+
+.cddd img.fire {
+    position: absolute;
+    top: 12%;
+    left: 24%;
+}
+
+.cddd img.rain {
+    width: 170px;
+    position: absolute;
+    top: 14%;
+    left: 24%;
+}
+
+.cddd img.graned {
+    width: 150px;
+    position: absolute;
+    top: 4%;
+    left: 26%;
+}
+
+.cddd img.roko {
+    width: 150px;
+    position: absolute;
+    top: 13%;
+    left: 26%;
+}
+
+.ball-card {
+    background-color: #0d043d;
+    background-image: url('../pic/ball_bg.png');
+    background-size: cover;
+}
+
+.ball-dis {
+    position: absolute;
+    bottom: 0;
+    left: 25%;
+    top: 84%;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.super {
+    color: white;
+}
+
+
+.boy-girl img {
+    width: 300px;
+    margin-top: 5%;
+
+}
+
+.bubble {
+    position: relative;
+    background-size: cover;
+}
+
+.boy-girl img.bby {
+    transform: scaleX(-1);
+    position: relative;
+    left: 50.1%;
+
+
+}
+
+.bbl h2 {
+    position: absolute;
+    bottom: 60%;
+    right: 33%;
+    font-size: 72px;
+    background: -webkit-linear-gradient(right, hsl(64, 93%, 48%), hsl(189, 93%, 49%));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Kablammo', cursive;
+}
+
+.jet {
+
+    background-color: #0d043d;
+    background-image: url('../pic/4x/right-jrt.png'), url('../pic/4x/jet_bub\ -\ Copy.png'), url('../pic/4x/jetplate.png');
+    height: 95vh;
+    background-position: right, left, center 270px;
+    background-repeat: no-repeat, no-repeat;
+    padding: 15px;
+    background-size: contain;
+    position: relative;
+}
+
+.alien-jet img.jet1 {
+    width: 250px;
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+
+
+.jet-plt {
+    width: 450px;
+    position: absolute;
+    top: 88%;
+    left: 26%;
+    transform: translate(-50%, -50%);
+}
+
+.robo-dis-jet {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 60%;
+    top: 60%;
+    color: white;
+    font-weight: 800;
+    letter-spacing: .1;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Buy {
+
+    background-color: yellow;
+    border-color: transparent;
+    border-radius: 5px;
+    width: 262px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+
+
+.heading-primary-jet {
+    position: relative;
+}
+
+.heading-primary-jet::before {
+    content: "|";
+    color: #08c5ff;
+    position: absolute;
+    left: -18%;
+    top: -20%;
+    font-size: 75px;
+    font-weight: 900;
+}
+
+
+.heading-primary-main-jet {
+    display: block;
+    font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    animation-name: moveInleft;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    color: #08c5ff;
+    font-family: 'Itim', cursive;
+}
+
+.heading-primary-sub-jet {
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    animation-name: moveInright;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    color: white;
+    font-family: 'Itim', cursive;
+}
+
+
+.jet-name {
+    position: absolute;
+    top: 25%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bachee {
+    background-color: #0d043d;
+    text-align: center;
+    position: relative;
+    height: 95vh;
+
+}
+
+.bch1 h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 5%;
+}
+
+
+.bch1 h4 {
+    color: darkmagenta;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+
+    background: -webkit-linear-gradient(rgb(219, 47, 17), rgb(212, 4, 212));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bch1 p {
+    color: skyblue;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.mid p {
+    color: #ffffff;
+    width: 350px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid transparent;
+    background-image: linear-gradient(rgb(0, 38, 255), rgb(52, 35, 131), rgb(17, 0, 255));
+    border-radius: 10px;
+    position: absolute;
+    bottom: 10%;
+    left: 38%;
+    z-index: 9999;
+
+}
+
+.fa {
+    font-size: 56px;
+    position: absolute;
+    top: 95%;
+    left: 5%;
+    padding: 2%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.feet {
+    background-color: #0d043d;
+    position: relative;
+    height: 30vh;
+}
+
+.connect h3 {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 5%;
+}
+
+/* .contra{
+    background-image: url(imgs/4x/jetplate.png);
+    background-position: center;
+} */
+
+.connect-us {
+    width: 170px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    background-image: linear-gradient(rgb(255, 0, 234), rgb(190, 24, 121), rgba(255, 0, 0, 0.89));
+    border-color: transparent;
+    color: white;
+    border-radius: 5px;
+    margin-top: 3.9%;
+}
+
+.fit {
+    border: 1px solid transparent;
+    text-align: center;
+    width: 80%;
+    height: vh;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    height: 70px;
+    background-image: linear-gradient(to right, rgba(34, 16, 126, 0.863), rgb(56, 9, 110));
+    border-radius: 13px;
+}
+
+
+
+@media (max-width: 768px) {
+
+    .main {
+        height: 51vh;
+    }
+
+    .img1 img {
+        width: 166px;
+        left: -5%;
+        top: 20px;
+    }
+
+
+
+    .img2 img {
+        width: 243px;
+        left: 19%;
+        top: 117px;
+    }
+
+
+
+    .img3 img {
+        width: 119px;
+        left: 71%;
+        top: 0px;
+    }
+
+    .img4 img {
+        width: 149px;
+        left: -4px;
+        top: 238px;
+    }
+
+    .img6 img {
+        width: 162px;
+        top: 249px;
+        left: 72%;
+        left: 60%;
+
+    }
+
+
+    .img5 {
+        position: absolute;
+        top: 320px;
+        left: 36%;
+    }
+
+    .img5 img {
+        width: 130px;
+    }
+
+    .img5 img.play {
+        width: 107px;
+        margin-left: 13px;
+        margin-top: 8px;
+        display: block;
+    }
+
+
+    .offline {
+        height: auto;
+        padding-bottom: 30px;
+        padding-top: -200px;
+    }
+
+    .cllng-dis h3 {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 1px;
+        padding-top: 4%;
+    }
+
+    .count {
+        text-align: center;
+
+    }
+
+    .counter {
+        background-color: #0d043d;
+        height: 70vh;
+        background-image: url("../pic/count.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .roboes {
+        background-color: #0d043d;
+        background-image: url('../pic/purp_pop.png'), url('../pic/boosterplate\ .png');
+        height: 50vh;
+        background-position: right 100px, center 166px;
+        background-repeat: no-repeat, no-repeat;
+        padding: 15px;
+        background-size: contain;
+        position: relative;
+    }
+
+    .heading-primary-main {
+        display: block;
+        font-size: 23px;
+        font-weight: 700;
+        letter-spacing: 2px;
+        animation-name: moveInleft;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        color: #ff08ad;
+        font-family: 'Itim', cursive;
+    }
+
+
+    .heading-primary-main-jet {
+
+        display: block;
+        font-size: 23px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    .heading-primary-sub-jet {
+
+        display: block;
+        font-size: 25px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        line-height: 1;
+
+    }
+
+    .Buy {
+        background-color: yellow;
+        border-color: transparent;
+        border-radius: 6px;
+        width: 101px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 503;
+    }
+
+    .robo-dis-jet p {
+        font-size: 12px;
+        margin-bottom: 47px;
+        margin-right: -39px;
+    }
+
+    .Buy {
+        background-color: yellow;
+        border-color: transparent;
+        border-radius: 6px;
+        width: 92px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 503;
+        position: absolute;
+        left: 24px;
+        bottom: 25px;
+        font-size: 11px;
+    }
+
+    .heading-primary-sub {
+        display: block;
+        font-size: 32px;
+        font-weight: 700;
+        letter-spacing: 4px;
+        animation-name: moveInright;
+        animation-duration: 1s;
+        animation-timing-function: ease-out;
+        color: white;
+        font-family: 'Itim', cursive;
+
+    }
+
+    .heading-primary::before {
+        content: "|";
+        color: #ff08ad;
+        position: absolute;
+        left: -18%;
+        top: -22%;
+        font-size: 89px;
+        font-weight: 600;
+    }
+
+    .alien img.booster1 {
+        width: 183px;
+        position: absolute;
+        top: 43%;
+        left: 27%;
+        transform: translate(-50%, -50%);
+    }
+
+    .robo-dis {
+        position: absolute;
+        top: 43%;
+        left: 65%;
+        transform: translate(-50%, -50%);
+        color: white;
+
+    }
+
+    .robo-dis p {
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 8;
+        font-size: 10px;
+        line-height: 1;
+    }
+
+
+    .alien img.plt {
+        width: 279px;
+        position: absolute;
+        top: 70%;
+        left: 31%;
+        transform: translate(-50%, -50%);
+    }
+
+    .robo-name {
+        position: absolute;
+        top: 16%;
+        left: 71%;
+        transform: translate(-50%, -50%);
+
+
+    }
+
+    .boy-girl img {
+        width: 101px;
+        margin-top: 23%;
+    }
+
+
+    .bbl h2 {
+
+        bottom: 25%;
+        right: 33%;
+        font-size: 42px; }
+
+        .jet {
+            height: 33vh;
+            background-image: url('../pic/4x/right-jrt.png'), url('../pic/4x/jet_bub\ -\ Copy.png'), url('../pic/4x/jetplate.png');
+            background-position: right, left, center 145px;
+        }
+
+        .alien-jet img.jet1 {
+            width: 165px;
+        }
+
+        .jet-plt {
+            width: 188px;
+        }
+
+
+        .bch1 {
+
+            margin-top: 44px;
+        }
+
+
+        .bch1 h3 {
+            font-size: 17px;
+        }
+
+        .bch1 h4 {
+            font-size: 17px;
+        }
+
+        .bch1 p {
+            font-size: 13px
+        }
+
+        .grouo img {
+            width: 244px;
+        }
+
+        .mid img {
+            width: 300px;
+            margin-top: 82px;
+            margin-left: 14px;
+        }
+
+        .mid p {
+            bottom: 350px;
+            left: 13%;
+            font-size: 12px;
+            width: 313px;
+        }
+
+        .connect h3 {
+            font-size: 19px;
+            padding-top: 3%;
+            line-height: 26px;
+        }
+
+        .fit {
+            top: 35%;
+        }
+
+        .fafaf {
+            z-index: 9999;
+        }
+
+    }
